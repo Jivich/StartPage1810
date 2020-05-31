@@ -9,7 +9,7 @@ To run this start page is necessary a web server (xampp or wampserver).
 
 ```bash
 Bootstrap v4.5.0
-Bootstrap v4.5.0
+jQuery v3.5.1
 ```
 
 ![Image](https://i.imgur.com/Bz1bSgO.png)
