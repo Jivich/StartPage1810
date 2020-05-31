@@ -1,18 +1,17 @@
 /*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @font-face{
-    font-family:'Roboto';
+  font-family:'Roboto';
   /* Antes de descargar el archivo, le decimos al buscador
   que intente buscar en local la fuente con nombre
   Cabin, Cabin Regular o Cabin-Regular */
   src: local('Roboto'),
-         url('Roboto-ThinItalic-webfont.woff') format('woff');
+  url('Roboto-ThinItalic-webfont.woff') format('woff');
 }
 
 body{
-/*background-color:#090c6e;*/
-background-color: #061123;
-text-align: center;
+  background-color: #061123;
+  text-align: center;
 }
 
 .box{
@@ -20,125 +19,125 @@ text-align: center;
 }
 
 .neon{
-    font-family: 'Quicksand', sans-serif;
-    position: absolute;
-    margin: 5px;
-	transform: translate(0%,0%);
-	font-size: 2em;
-	color: #fff;
-	text-shadow:0 0 20px #ff005b;
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  margin: 5px;
+  transform: translate(0%,0%);
+  font-size: 2em;
+  color: #fff;
+  text-shadow:0 0 20px #ff005b;
 }
 .neon:after{
-	content: attr(data-text);
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	color: #ff005b;
-	filter: blur(15px);
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: #ff005b;
+  filter: blur(15px);
 }
 .neon:before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #fe3a80;
-	z-index: -2;
-	opacity: 0.5;
-	filter: blur(15px);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fe3a80;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(15px);
 }
 
 .box{
-margin:0px auto;
-width: 800px;
+  margin:0px auto;
+  width: 800px;
 }
 
 .banner button{
-float: right;
+  float: right;
 }
 
 .banner{
-background-color: #606060;
-width: 100%;
-height: 10em;
-border-style: solid;
-border-color: #f8f9fa;
-border-width: 3px 3px 0px 3px;
-padding: 0px;
-background-image: url(../images/skull.jpeg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: 100% auto;
-/*Utilizando flexbox para centrar*/
-/*display: flex;
-flex-direction:row;
-flex-wrap:wrap;
-justify-content: center;
-align-items: center;*/
+  background-color: #606060;
+  width: 100%;
+  height: 10em;
+  border-style: solid;
+  border-color: #f8f9fa;
+  border-width: 3px 3px 0px 3px;
+  padding: 0px;
+  background-image: url(../images/skull.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  /*Utilizando flexbox para centrar*/
+  /*display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;*/
 }
 .padre {
-width: 100%;
-height: 23em;
-padding: px;
-background-color:#010233;
-border-style: solid;
-border-color: #f8f9fa;
-border-width: 3px 3px 3px 3px;
-display: flex;
-justify-content: center;
+  width: 100%;
+  height: 23em;
+  padding: px;
+  background-color:#010233;
+  border-style: solid;
+  border-color: #f8f9fa;
+  border-width: 3px 3px 3px 3px;
+  display: flex;
+  justify-content: center;
 }
 
 .hijo {
-border: 1px solid #0b7285;
-height: 100%;
-width: 100%;
-padding: 0px;
-margin: 0px;
-background-color: #000000;
-font-family: 'Roboto', sans-serif;
+  border: 1px solid #0b7285;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
 }
 
 #contenidox{
-border: 1px solid #f8f9fa;
-float: left;
-padding: 0px;
+  border: 1px solid #f8f9fa;
+  float: left;
+  padding: 0px;
 }
 
 #contenidoy{
-border: 1px solid #f8f9fa;
-float: left;
-padding: 0px;
+  border: 1px solid #f8f9fa;
+  float: left;
+  padding: 0px;
 }
 
 #contenidoz{
-border: 1px solid #f8f9fa;
-float: left;
-padding: 0px;
+  border: 1px solid #f8f9fa;
+  float: left;
+  padding: 0px;
 }
 
 .zelda{
-display: block;
-text-align: center;
-transition: .3s;
-position: relative;
-top: 5px;
-color: #eee;
-text-decoration: none;
+  display: block;
+  text-align: center;
+  transition: .3s;
+  position: relative;
+  top: 5px;
+  color: #eee;
+  text-decoration: none;
 }
 
 .zelda:hover{
-    color: #ff2424;
+  color: #ff2424;
 }
 
 /*-----------------*/
 
 figure.snip1256 {
-width: 100%;
-height: 22.5em;
-padding: 0px;
-margin: 0px;
+  width: 100%;
+  height: 22.5em;
+  padding: 0px;
+  margin: 0px;
   overflow: hidden;
   color: #ffffff;
   background-color: #07090c;
@@ -156,8 +155,8 @@ figure.snip1256 img {
   margin-top: -2em;
   width: 100%;
   height: 100%;
-/*display:block;*/
-margin:auto;
+  /*display:block;*/
+  margin:auto;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -193,26 +192,26 @@ figure.snip1256.hover figcaption {
 }
 
 .btn.btn-outline-primary{
-padding: 5px;
-margin: 3px;
+  padding: 5px;
+  margin: 3px;
 }
 
 .btn.btn-outline-danger{
-padding: 5px;
-margin: 3px;
+  padding: 5px;
+  margin: 3px;
 }
 
 .search{
-border-style: solid;
-border-color: #f8f9fa;
-border-width: 3px 3px 0px 3px;
-border-radius: 0px;
+  border-style: solid;
+  border-color: #f8f9fa;
+  border-width: 3px 3px 0px 3px;
+  border-radius: 0px;
 }
 
 .search input{
-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .btn.btn-primary{
-border-radius: 0px;
+  border-radius: 0px;
 }
